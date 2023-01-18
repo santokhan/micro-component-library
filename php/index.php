@@ -1,8 +1,7 @@
-<?php
+<?php // require './routes.php'; ?>
 
-header("Access-Control-Allow-Origin: *");
-header("Access-Control-Allow-Headers: *");
+<?php require './templates/header.php'; ?>
+<?php require './simple-routes.php'; ?>
+<?php require './templates/footer.php'; ?>
 
-require_once('./router/routes.php');
-
-
+<?php ?>
